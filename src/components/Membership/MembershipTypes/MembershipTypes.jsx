@@ -8,32 +8,6 @@ import './MembershipTypes.css';
 const MembershipTypes = (props) => {
     const [listMembershipsTypes, setListMembershipsTypes] = useState([]);
 
-    // useEffect(() => {
-    //     const fetchData = async () => {
-    //         try {
-    //             const result = await getListMembershipTypes();
-    //             if (result && result.length) {
-    //                 setListMembershipsTypes(result);
-    //             } else {
-    //                 console.error('No membership types found.');
-    //             }
-    //         } catch (error) {
-    //             console.error('Error fetching membership types:', error);
-    //         }
-    //     };
-    //
-    //     fetchData();
-    // }, []);
-
-    // useEffect(() => {
-    //     const fetchData = async () => {
-    //         const result = await getListMembershipTypes();
-    //         setListMembershipsTypes(result);
-    //         console.log(result);
-    //     };
-    //     fetchData();
-    // }, []);
-
 
     useEffect(() => {
         async function fetchData() {

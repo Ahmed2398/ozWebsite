@@ -37,7 +37,7 @@ const Services = () => {
                     <div className="head-content-left-shape text-left  position-absolute"
                          style={{top: "40px", left: "100px"}}>
                         <h3 className="bold-head mb-4 ">What you'll get</h3>
-                        <p className="text-content text-secondary">Lorem ipsum dolor sit amet, consectetur
+                        <p className="text-content text-secondary">Lorem ipsum dolor <s></s>it amet, consectetur
                             dipiscing elit eius mod tempor incididunt ut labore </p>
                     </div>
                 </div>

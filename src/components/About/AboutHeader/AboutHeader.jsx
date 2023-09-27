@@ -26,8 +26,6 @@ const AboutHeader = () => {
                                     dolor sit amet, consectetur
                                 </p>
                             </div>
-
-
                         </div>
                     </div>
                 </div>

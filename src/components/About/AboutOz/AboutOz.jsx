@@ -17,11 +17,16 @@ const AboutOz = () => {
             <section className="about-oz body-dark">
                 <div className="position-relative mb-5" style={{height: "0"}}>
                     <Media
-                        type="img" src={vector} className="position-absolute"
-                        style={{top: "0px", right: "0", width: "100px"}} alt="shape"/>
-                    <div className="head-content-left-shape text-left  position-absolute"
-                         style={{top: "40px", left: "100px"}}>
-
+                        type="img"
+                        src={vector}
+                        className="position-absolute"
+                        style={{top: "0px", right: "0", width: "100px"}}
+                        alt="shape"
+                    />
+                    <div
+                        className="head-content-left-shape text-left  position-absolute"
+                        style={{top: "40px", left: "100px"}}
+                    >
                     </div>
                 </div>
                 <div className="container">
@@ -100,7 +105,6 @@ const AboutOz = () => {
                                         alt="Our OZ Vision"
                                     />
                                     <div className="">
-
                                         <h2 className="h2-text-box">Community</h2>
                                         <p className="p-text-box">
                                             Lorem ipsum dolor sit amet, consectetur dipiscing elit eiusmod
@@ -111,8 +115,6 @@ const AboutOz = () => {
                                         </p>
                                     </div>
                                 </div>
-
-
                             </div>
                         </div>
                         <div className="col-md-4 col-lg-4 col-sm-4 col-xs-4 box-content-black">
@@ -129,7 +131,6 @@ const AboutOz = () => {
                                 }}
                             />
                         </div>
-
 
                         <div className="col-md-6 col-lg-6 col-sm-4 col-xs-6 box-content-black   ">
                             <div className="box-content     ">
@@ -150,10 +151,9 @@ const AboutOz = () => {
                                         alt="Our OZ Vision"
                                     />
                                 </div>
-
-
                             </div>
                         </div>
+
                         <div className="col-md-6 col-lg-6 col-sm-6 col-xs-6 m-auto box-content-black  ">
                             <Media
                                 type="img"
@@ -166,11 +166,9 @@ const AboutOz = () => {
                                 }}
                             />
                         </div>
-
                     </div>
                 </div>
             </section>
-
 
             <section className="what-get p-60">
                 <div className="container">
@@ -184,7 +182,6 @@ const AboutOz = () => {
                         {services.map((service, index) => {
                             const {title, imgwhite, text} = service;
                             return (
-
                                 <div className="col-lg-6 col-md-6 col-sm-12 py-3 border-all">
                                     <div className="d-flex align-items-center justify-content-between">
                                         <div className="d-lg-flex d-md-flex d-sm-block align-items-center w-50">
@@ -201,8 +198,6 @@ const AboutOz = () => {
                     </div>
                 </div>
             </section>
-
-
         </>
     );
 };

@@ -49,22 +49,12 @@ const BookingForm = () => {
         event.preventDefault();
         setIsOpen(!isOpen);
     }
-    //
-    // let body = document.querySelector("body");
-    //
-    // body.addEventListener("click", closeSelectGuest);
+
     const increment = (event) => {
         event.preventDefault();
         setCounter(counter + 1)
     }
 
-    // const decrement = (event) => {
-    //     event.preventDefault();
-    //     if (setCounter < 0) {
-    //         setCounter((counter) => counter - 1);
-    //     }
-    //     // setCounter(counter - 1)
-    // }
 
     const decrement = (event) => {
         event.preventDefault();
@@ -226,9 +216,7 @@ const BookingForm = () => {
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
-
                             </li>
 
                             <li className="bookbottom__li bookbottom__li--submit">

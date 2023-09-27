@@ -49,8 +49,6 @@ const Home = () => {
                 // link={["Become a Member"]}
                        numberOfLinksToShow={1}
                        link={[{className: "btn button-outLine", label: "Become a Member"}]}
-
-
             />
             <Partners/>
             <NewsLetter/>

@@ -16,7 +16,6 @@ const CommunityExploreHeader = () => {
                                 className="img"
                                 alt="Group"
                                 src={party}
-
                             />
 
                             <div className="group-2">

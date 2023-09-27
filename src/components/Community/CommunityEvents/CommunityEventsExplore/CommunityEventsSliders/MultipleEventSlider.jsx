@@ -44,17 +44,19 @@ const MultipleEventSlider = () => {
                         const {id, img, linkText, title, text, category} = eventData;
                         return (
                             <div key={index}>
-                                <SingleCommunityExplore id={id} img={img} linkText={linkText}
-                                                        title={title}
-                                                        text={text} category={category}/>
+                                <SingleCommunityExplore
+                                    id={id}
+                                    img={img}
+                                    linkText={linkText}
+                                    title={title}
+                                    text={text}
+                                    category={category}
+                                />
                             </div>
                         )
                     })}
                 </Slider>
-
             </div>
-
-
         </>
     );
 };

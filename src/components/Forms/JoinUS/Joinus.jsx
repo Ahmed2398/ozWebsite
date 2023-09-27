@@ -56,12 +56,9 @@ const Joinus = () => {
                         <h3 className="bold-head">Get started to join with oz community</h3>
                     </div>
                 </div>
-
-
             </div>
+
             <section className="contactus my-5 joinus-form">
-
-
                 <div className="container-fluid">
                     <div className="row ">
                         <div className="col-lg-6">
@@ -153,7 +150,6 @@ const Joinus = () => {
                     </div>
                 </div>
             </section>
-
         </>
     );
 };
